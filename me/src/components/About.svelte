@@ -1,0 +1,16 @@
+<script>
+
+	import Panel from "./Panel.svelte";
+
+</script>
+
+<Panel id="About" className="bg-gray-800 col-span-2 row-span-2 grid grid-rows-3">
+    <h2 id="aboutHeading" class="text-4xl font-bold">Who am I?</h2>
+    <p id="aboutText">
+        I’m Markus A. R. Johansen, a student pursuing a Bachelor's degree in Informatics at NTNU
+        Trondheim, graduating in 2024. Currently, I work as a Software Developer at Consigli, where
+        I’m building practical experience in programming, with a focus on TypeScript, Selenium, and
+        web scraping. Previously, I had the opportunity to intern at NAV IT, which helped deepen my
+        understanding of software development in a professional setting.
+    </p>
+</Panel>
