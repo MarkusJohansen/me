@@ -71,24 +71,27 @@
 			yoyo: true,
 			yoyoEase: true,
 			defaults: {
-				duration: 10,
-				ease: 'power2.in'
+				duration: 7,
 			}
 		});
 		colorChangerTimeline
 			.to('.colorChanger', {
-				backgroundColor: '#EC6A37'
+				backgroundColor: '#EC6A37' //tangerine
 			})
 			.to('.colorChanger', {
-				backgroundColor: '#FFA800'
+				backgroundColor: '#FFA800' //yellow
 			})
 			.to('.colorChanger', {
-				backgroundColor: '#8F00FF',
-				color: '#FFFFFF'
+				backgroundColor: '#D2665A', //Terracotta
 			})
-			.to('.colorChanger', {
-				backgroundColor: '#1338BE',
-				color: '#FFFFFF'
+            .to('.colorChanger', {
+				backgroundColor: '#C5BAFF', //violet light  
+			})
+            .to('.colorChanger', {
+				backgroundColor: '#B1F0F7', //sky
+			})
+            .to('.colorChanger', {
+				backgroundColor: '#a7c957', //Cactus
 			});
 		colorChangerTimeline.play();
 
@@ -98,23 +101,28 @@
 			yoyo: true,
 			yoyoEase: true,
 			defaults: {
-				duration: 10,
-				ease: 'power2.in'
+				duration: 7,
 			}
 		});
 
 		fontColorChangerTimeline
-			.to('#fontColorChanger', {
-				color: '#EC6A37'
+        .to('#fontColorChanger', {
+				color: '#EC6A37' //tangerine
 			})
 			.to('#fontColorChanger', {
-				color: '#FFA800'
+				color: '#FFA800' //yellow
 			})
 			.to('#fontColorChanger', {
-				color: '#8F00FF'
+				color: '#D2665A', //Terracotta
 			})
-			.to('#fontColorChanger', {
-				color: '#1338BE'
+            .to('#fontColorChanger', {
+				color: '#C5BAFF', //violet light  
+			})
+            .to('#fontColorChanger', {
+				color: '#B1F0F7', //sky
+			})
+            .to('#fontColorChanger', {
+				color: '#a7c957', //Cactus
 			});
 		fontColorChangerTimeline.play();
 	});
