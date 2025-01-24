@@ -12,8 +12,8 @@
 		//Moving containers
 		let containerTimeline = gsap.timeline({
 			defaults: {
-				duration: 0.5,
-				delay: 0.5,
+				duration: 0.7,
+				delay: 1,
 				ease: 'power.in',
 				opacity: 0 // start from fully transparent
 			}
@@ -27,7 +27,6 @@
 				x: -100 // start from 100px above
 			})
 			.from('#m1', {
-				delay: 1,
 				duration: 0.25,
 				y: 100 // start from 100px above
 			})
@@ -61,10 +60,9 @@
 			.from('#About', {
 				x: 100 // start from 100px above
 			})
-			.from('#sc1', { delay: 0.1, duration: 0.25 })
-			.from('#sc2', { delay: 0.1, duration: 0.25 })
-			.from('#sc3', { delay: 0.1, duration: 0.25 })
-			.from('#sc4', { delay: 0.1, duration: 0.25 });
+			.from('#sb1', { delay: 0.1, duration: 0.25, display: 'none' })
+			.from('#sb2', { delay: 0.1, duration: 0.25, display: 'none' })
+			.from('#sb3', { delay: 0.1, duration: 0.25, display: 'none'})
 		containerTimeline.play();
 
 		//Background Color Changer
@@ -73,7 +71,7 @@
 			yoyo: true,
 			yoyoEase: true,
 			defaults: {
-				duration: 5,
+				duration: 10,
 				ease: 'power2.in'
 			}
 		});
@@ -100,7 +98,7 @@
 			yoyo: true,
 			yoyoEase: true,
 			defaults: {
-				duration: 5,
+				duration: 10,
 				ease: 'power2.in'
 			}
 		});
@@ -119,28 +117,6 @@
 				color: '#1338BE'
 			});
 		fontColorChangerTimeline.play();
-
-		// let headerTimeline = gsap.timeline({
-		//     defaults: {
-		//         duration: 1,
-		//         opacity: 0, // start from fully transparent
-		//         ease: 'bounce.out', // bounce effect when it settles
-		//         delay: 0.5, // wait 1 second before starting
-		//     }
-		// })
-		// headerTimeline.from('#mainHeading', {
-		//     x: -100, // start from 100px above
-		// })
-		// .from('#projectsText', {
-		//     y: -100, // start from 100px above
-		// })
-		// .from('#aboutHeading', {
-		//     x: 100, // start from 100px above
-		// })
-		// .from('#aboutText', {
-		//     y: 100, // start from 100px above
-		// })
-		// headerTimeline.play();
 	});
 </script>
 
