@@ -1,12 +1,12 @@
 <script>
 	import gsap from 'gsap';
-	import Panel from '../components/Panel.svelte';
+	import Panel from '../components/Atoms/Panel.svelte';
 	import { onMount } from 'svelte';
-	import About from '../components/About.svelte';
-	import Projects from '../components/Projects.svelte';
-	import Measures from '../components/Measures.svelte';
-	import VerticalStack from '../components/VerticalStack.svelte';
-	import Profile from '../components/Profile.svelte';
+	import About from '../components/Molecules/About.svelte';
+	import Projects from '../components/Molecules/Projects.svelte';
+	import Measures from '../components/Molecules/Measures.svelte';
+	import VerticalStack from '../components/Atoms/VerticalStack.svelte';
+	import Profile from '../components/Molecules/Profile.svelte';
 
 	onMount(() => {
 		//Moving containers

@@ -12,7 +12,7 @@
 		'rounded-md',
 		noPadding ? 'p-0' : 'p-6',
 		colorChanger ? 'colorChanger' : '',
-		className
+		className,
 	)}
 >
 	<slot></slot>

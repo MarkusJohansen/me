@@ -1,6 +1,6 @@
 <script>
-	import Panel from "./Panel.svelte";
-    import Profile from "../img/profile.png";
+	import Panel from "../Atoms/Panel.svelte";
+    import Profile from "../../img/profile.png";
     </script>
 
 <div id="profile" class="row-span-2 opacity-0">

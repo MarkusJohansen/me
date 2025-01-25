@@ -1,7 +1,7 @@
 <script>
 
 	import Field from "./Field.svelte";
-	import SocialButtons from "./SocialButtons.svelte";
+	import SocialButtons from "../Molecules/SocialButtons.svelte";
 
 </script>
 

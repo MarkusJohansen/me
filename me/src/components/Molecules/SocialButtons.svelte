@@ -1,8 +1,8 @@
 <script>
-	import SocialButton from "./SocialButton.svelte";
-    import github from "../img/icons8-github.svg";
-    import linkedin from "../img/icons8-linkedin.svg";
-    import instagram from "../img/icons8-instagram.svg";
+	import SocialButton from "../Atoms/SocialButton.svelte";
+    import github from "../../img/icons8-github.svg";
+    import linkedin from "../../img/icons8-linkedin.svg";
+    import instagram from "../../img/icons8-instagram.svg";
 </script>
 
 <div class="grid grid-cols-3 gap-4">

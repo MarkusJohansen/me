@@ -1,6 +1,6 @@
 <script>
 
-	import Measure from "./Measure.svelte";
+	import Measure from "../Atoms/Measure.svelte";
 
 </script>
 <div id="Measures" class="col-span-3 grid grid-cols-3 gap-4">
