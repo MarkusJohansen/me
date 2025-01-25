@@ -1,6 +1,4 @@
 <script>
-
-	import Panel from "./Panel.svelte";
 	import SocialButton from "./SocialButton.svelte";
     import github from "../img/icons8-github.svg";
     import linkedin from "../img/icons8-linkedin.svg";
