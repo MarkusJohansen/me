@@ -18,6 +18,7 @@
     "@sveltejs/kit": "^2.16.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tailwindcss/typography": "^0.5.16",
+    "@types/d3": "^7.4.3",
     "autoprefixer": "^10.4.20",
     "prettier": "^3.4.2",
     "prettier-plugin-svelte": "^3.3.3",
@@ -31,8 +32,10 @@
   "dependencies": {
     "@inlang/paraglide-sveltekit": "^0.15.5",
     "clsx": "^2.1.1",
+    "d3": "^7.9.0",
     "glaze": "^0.5.1",
     "glazejs": "^2.0.1",
-    "gsap": "^3.12.7"
+    "gsap": "^3.12.7",
+    "layerchart": "^0.79.2"
   }
 }

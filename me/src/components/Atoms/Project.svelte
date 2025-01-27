@@ -11,9 +11,9 @@
 
 <div>
     <Panel className="h-full overflow-hidden relative" noPadding>
-        <Panel className="opacity-0 duration-200 hover:opacity-80 hover:bg-black h-full w-full absolute top-0 flex flex-col justify-between">
+        <Panel className="opacity-0 duration-200 hover:opacity-90 hover:bg-black h-full w-full absolute top-0 flex flex-col justify-between">
             <div>
-                <h2 class="text-xl">{text}</h2>
+                <h2 class="text-xl fontColorChanger">{text}</h2>
                 <p class="text-sm">{desc}</p>
             </div>
             <div>

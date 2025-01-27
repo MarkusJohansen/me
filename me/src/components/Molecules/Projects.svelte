@@ -5,10 +5,18 @@
 	import Vr4vet from '../../img/vr4vet.png';
 	import ChimeraCSS from '../../img/chimeracss.png';
 	import Button from '../Atoms/Button.svelte';
+	import clsx from 'clsx';
 </script>
 
-<Panel id="Projects" className="grid col-span-3 row-span-2 grid-rows-4 bg-dark-100 p-6 opacity-0">
-	<div class="flex items-center justify-between">
+<Panel 
+	id="Projects"
+	className={clsx(
+		"grid grid-rows-4 gap-4",
+		"grid-rows-4 bg-dark-100 opacity-0",
+		"col-span-12 lg:col-span-7 xl:row-span-4"
+	)}
+	>
+	<div class="flex justify-between">
 		<div>
 			<h2 id="projectsText" class="text-3xl font-bold">Featured Projects</h2>
 			<p id="projectsText">This is some of the latest projects i have worked on</p>
@@ -17,7 +25,7 @@
 	</div>
 	<div class="row-span-3 grid grid-cols-3 gap-4">
 		<Project
-			text="Dagens ord"
+			text="Dagensord.no"
 			img={DagensOrd}
 			desc="A webpage that allows you to explore funny words and sayings in the norwegian language"
 			visit="https://www.dagensord.no/"

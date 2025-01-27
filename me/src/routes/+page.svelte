@@ -7,6 +7,9 @@
 	import Measures from '../components/Molecules/Measures.svelte';
 	import VerticalStack from '../components/Atoms/VerticalStack.svelte';
 	import Profile from '../components/Molecules/Profile.svelte';
+	import clsx from 'clsx';
+	import SocialButtons from '../components/Molecules/SocialButtons.svelte';
+	import Namebadge from '../components/Molecules/Namebadge.svelte';
 
 	onMount(() => {
 		//Moving containers
@@ -168,37 +171,41 @@
 		});
 
 		fontColorChangerTimeline
-			.to('#fontColorChanger', {
+			.to('.fontColorChanger', {
 				color: '#a7c957' //Cactus
 			})
-			.to('#fontColorChanger', {
+			.to('.fontColorChanger', {
 				color: '#FFA800' //yellow
 			})
-			.to('#fontColorChanger', {
+			.to('.fontColorChanger', {
 				color: '#EC6A37' //tangerine
 			})
-			.to('#fontColorChanger', {
+			.to('.fontColorChanger', {
 				color: '#D2665A' //Terracotta
 			})
-			.to('#fontColorChanger', {
+			.to('.fontColorChanger', {
 				color: '#C5BAFF' //violet light
 			})
-			.to('#fontColorChanger', {
+			.to('.fontColorChanger', {
 				color: '#B1F0F7' //sky
 			});
 		fontColorChangerTimeline.play();
 	});
 </script>
 
-<div class="bg-dark-base grid h-screen w-screen grid-cols-5 grid-rows-4 gap-4 p-6 text-gray-100">
-	<Panel id="intro" className="bg-dark-100 col-span-3 opacity-0">
-		<h1 id="mainHeading" class="text-6xl font-bold">
-			Im <span id="fontColorChanger" class="text-lime"> Markus Aleksander</span> - Software Developer
-		</h1>
-	</Panel>
+<div
+	class={clsx(
+		'bg-dark-base text-gray-100',
+		'h-fit w-screen xl:h-screen',
+		'gap-4 p-6',
+		'grid grid-cols-12 xl:grid-rows-8'
+	)}
+>
+	<Namebadge />
 	<Profile />
 	<VerticalStack />
 	<Measures />
+	<SocialButtons />
 	<Projects />
 	<About />
 </div>
