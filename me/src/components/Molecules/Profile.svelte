@@ -8,8 +8,8 @@
     id="profile"
     class={clsx(
         "opacity-0",
-        "col-span-3 xl:col-span-2",
-        "row-span-3 xl:row-span-4",
+        "col-span-6 lg:col-span-3 xl:col-span-2",
+        "row-span-2 lg:row-span-3 xl:row-span-4",
     )}
 >
     <Panel className="bg-lime h-full overflow-hidden" noPadding colorChanger>

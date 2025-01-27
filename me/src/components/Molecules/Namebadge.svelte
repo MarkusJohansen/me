@@ -13,7 +13,7 @@
         "row-span-1 xl:row-span-2"
     )}
     >
-	<h1 id="mainHeading" class="text-4xl xl:text-6xl font-bold">
+	<h1 id="mainHeading" class="text-2xl lg:text-4xl xl:text-6xl font-bold">
 		Im <span class="text-lime fontColorChanger"> Markus Aleksander</span> - Software Developer
 	</h1>
 </Panel>

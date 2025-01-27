@@ -8,7 +8,7 @@
 	class={clsx(
 		'grid gap-4 grid-cols-1 grid-rows-3',
         'col-span-3',
-		'row-span-3 xl:row-span-3',
+		'row-span-3',
 	)}
 >
 	<Field id="f1" title="Employer:" value="Consigli AS" />
