@@ -10,7 +10,7 @@
 <div 
     class={clsx(
         "flex items-center justify-evenly gap-4 flex-row",
-        "row-span-1 col-span-1 lg:col-span-6 xl:col-span-3 "
+        "row-span-1 col-span-6 xl:col-span-3 "
     )}
 >
 <SocialButton id="sb1" alt="Github" icon={github} href="https://github.com/MarkusJohansen"/>
