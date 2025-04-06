@@ -1,6 +1,5 @@
 <script>
 	import Button from "./Button.svelte";
-import Panel from "./Panel.svelte";
     export let alt = "";
     export let icon = "";
     export let href = "";

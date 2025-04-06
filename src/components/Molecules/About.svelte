@@ -1,10 +1,7 @@
 <script>
 	import clsx from "clsx";
 	import Button from "../Atoms/Button.svelte";
-
-
 	import Panel from "../Atoms/Panel.svelte";
-
 </script>
 
 <Panel 

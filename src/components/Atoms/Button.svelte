@@ -1,6 +1,5 @@
 <script>
 	import clsx from 'clsx';
-	import exp from 'constants';
 	// Accept all props as $$restProps which will be forwarded to the <button>
 	export let onClick = () => {};
 	export let link = false;
